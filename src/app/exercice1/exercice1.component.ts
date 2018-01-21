@@ -13,4 +13,8 @@ export class Exercice1Component implements OnInit {
   ngOnInit() {
   }
 
+  changerCompteur($event) {
+    this.compteur = $event.nouvelleValeurCompteur;
+  }
+
 }
